@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-unicorn-camelcase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint shareable config for unicorn with camelCase filename",
   "main": "index.js",
   "repository": "timche/eslint-config-unicorn-camelcase",
