@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-unicorn-camelcase",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for unicorn with camelCase filename",
+  "main": "index.js",
+  "repository": "timche/eslint-config-unicorn-camelcase",
+  "author": "Tim Cheung <tim@cheung.io>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "config",
+    "unicorn",
+    "camelcase"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "format": "pretty-quick",
+    "lint": "xo"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1",
+    "xo": "^0.20.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "trailingComma": "none"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true
+  }
+}
